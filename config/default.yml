@@ -1,0 +1,11 @@
+# development 및 production 두 환경 모두 사용해야 하는 정보
+server:
+  port: 3000
+
+db:
+  type: 'postgres'
+  port: 5432
+  database: 'board-app'
+
+jwt:
+  expiresIn: 3600
